@@ -3,6 +3,7 @@ import { MotionWrapper } from './wrapper/motionWrapper.js'
 import { LapDataWrapper } from './wrapper/lapDataWrapper.js'
 import { EventWrapper } from './wrapper/eventWrapper.js'
 import { DriversWrapper } from './wrapper/driversWrapper.js'
+import { CarConfigurationWrapper } from './wrapper/carConfigurationWrapper.js'
 
 const WRAPPER_BY_BYTE_SIZE = {
 
@@ -11,7 +12,7 @@ const WRAPPER_BY_BYTE_SIZE = {
     1131: LapDataWrapper,
     45: EventWrapper,
     1306: DriversWrapper,
-    carSetups: 1107,
+    1107: CarConfigurationWrapper,
     carTelemetry: 1352,
     carStatus: 1239,
     finalClassification: 1020,
