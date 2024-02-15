@@ -7,6 +7,7 @@ import { CarConfigurationWrapper } from './wrapper/carConfigurationWrapper.js'
 import { CarTelemetryWrapper } from './wrapper/carTelemetryWrapper.js'
 import { CarStatusWrapper } from './wrapper/carStatusWrapper.js'
 import { FinalClassificationWrapper } from './wrapper/finalClassificationWrapper.js'
+import { LobbyInfoWrapper } from './wrapper/lobbyInfo.js'
 
 const WRAPPER_BY_BYTE_SIZE = {
 
@@ -19,7 +20,7 @@ const WRAPPER_BY_BYTE_SIZE = {
     1352: CarTelemetryWrapper,
     1239: CarStatusWrapper,
     1020: FinalClassificationWrapper,
-    lobbyInfo: 1218,
+    1218: LobbyInfoWrapper,
     carDamage: 953,
     sessionHistory: 1460,
     tyreSets: 231,
