@@ -1,11 +1,12 @@
 import { SessionWrapper } from './wrapper/sessionWrapper.js'
 import { MotionWrapper } from './wrapper/motionWrapper.js'
+import { LapDataWrapper } from './wrapper/lapDataWrapper.js'
 
 const WRAPPER_BY_BYTE_SIZE = {
 
     1349: MotionWrapper,
     644: SessionWrapper,
-    lapData: 1131,
+    1131: LapDataWrapper,
     event: 45,
     participants: 1306,
     carSetups: 1107,
