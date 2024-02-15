@@ -9,7 +9,7 @@ server.on('listening', () => {
 })
 
 server.on('message', (buffer, info) => {
-  let Wrapper = bindWrapper(info.size)
+  const Wrapper = bindWrapper(info.size)
   if (Wrapper == null) return
 
   const data = new Wrapper(buffer).wrap()
