@@ -1,6 +1,10 @@
 {
+  "name": "formula-one-telemetry",
   "type": "module",
   "dependencies": {
     "binary-parser": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node ./src/app.js"
   }
 }

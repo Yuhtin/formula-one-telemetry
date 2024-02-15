@@ -1,0 +1,712 @@
+{
+  "raceHeader": {
+    "packetFormat": 2023,
+    "gameYear": 23,
+    "gameMajorVersion": 1,
+    "gameMinorVersion": 19,
+    "packetVersion": 1,
+    "packetId": 1,
+    "sessionUid": "14789070432117921587",
+    "sessionTime": 657.590087890625,
+    "frameIdentifier": 27488,
+    "overallFrameIdentifier": 27488,
+    "playerCarIndex": 21,
+    "secondaryPlayerCarIndex": 255
+  },
+  "raceWeather": 0,
+  "raceTrackTemperature": 31,
+  "raceAirTemperature": 24,
+  "raceTotalLaps": 3,
+  "raceTrackLength": 4378,
+  "raceSessionType": 8,
+  "raceTrackId": 9,
+  "raceFormula": 2,
+  "raceSessionTimeLeft": 1142,
+  "raceSessionDuration": 1800,
+  "racePitSpeedLimit": 60,
+  "raceGamePaused": 0,
+  "raceIsSpectating": 0,
+  "raceSpectatorCarIndex": 255,
+  "raceSliProNativeSupport": 1,
+  "raceNumMarshalZones": 17,
+  "raceMarshalZones": [
+    {
+      "raceZoneStart": 0.9972774982452393,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.04678938165307045,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.11120831221342087,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.16915257275104523,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.2410275787115097,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.27794691920280457,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.3509402275085449,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.39657968282699585,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.5162546038627625,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.6133684515953064,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.6624688506126404,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.6969912648200989,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.755357563495636,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.8429234623908997,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.8825380802154541,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.9046260118484497,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0.9566268920898438,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0,
+      "raceZoneFlag": 0
+    },
+    {
+      "raceZoneStart": 0,
+      "raceZoneFlag": 0
+    }
+  ],
+  "raceSafetyCarStatus": 0,
+  "raceNetworkGame": 0,
+  "raceNumWeatherForecastSamples": 11,
+  "raceWeatherForecastSamples": [
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 31,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 24,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 2
+    },
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 5,
+      "raceWeather": 0,
+      "raceTrackTemperature": 31,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 24,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 2
+    },
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 10,
+      "raceWeather": 0,
+      "raceTrackTemperature": 31,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 24,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 3
+    },
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 15,
+      "raceWeather": 0,
+      "raceTrackTemperature": 31,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 24,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 3
+    },
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 30,
+      "raceWeather": 0,
+      "raceTrackTemperature": 31,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 24,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 3
+    },
+    {
+      "raceSessionType": 8,
+      "raceTimeOffset": 60,
+      "raceWeather": 0,
+      "raceTrackTemperature": 30,
+      "raceTrackTemperatureChange": 1,
+      "raceAirTemperature": 23,
+      "raceAirTemperatureChange": 1,
+      "raceRainPercentage": 3
+    },
+    {
+      "raceSessionType": 11,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 35,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 27,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 1
+    },
+    {
+      "raceSessionType": 11,
+      "raceTimeOffset": 5,
+      "raceWeather": 0,
+      "raceTrackTemperature": 35,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 27,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 1
+    },
+    {
+      "raceSessionType": 11,
+      "raceTimeOffset": 10,
+      "raceWeather": 0,
+      "raceTrackTemperature": 35,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 27,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 2
+    },
+    {
+      "raceSessionType": 11,
+      "raceTimeOffset": 15,
+      "raceWeather": 0,
+      "raceTrackTemperature": 35,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 27,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 2
+    },
+    {
+      "raceSessionType": 11,
+      "raceTimeOffset": 30,
+      "raceWeather": 0,
+      "raceTrackTemperature": 35,
+      "raceTrackTemperatureChange": 2,
+      "raceAirTemperature": 27,
+      "raceAirTemperatureChange": 2,
+      "raceRainPercentage": 2
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    },
+    {
+      "raceSessionType": 0,
+      "raceTimeOffset": 0,
+      "raceWeather": 0,
+      "raceTrackTemperature": 0,
+      "raceTrackTemperatureChange": 0,
+      "raceAirTemperature": 0,
+      "raceAirTemperatureChange": 0,
+      "raceRainPercentage": 0
+    }
+  ],
+  "raceForecastAccuracy": 0,
+  "raceAiDifficulty": 31,
+  "raceSeasonLinkIdentifier": 3585271380,
+  "raceWeekendLinkIdentifier": 3585272280,
+  "raceSessionLinkIdentifier": 3585272280,
+  "racePitStopWindowIdealLap": 0,
+  "racePitStopWindowLatestLap": 0,
+  "racePitStopRejoinPosition": 0,
+  "raceSteeringAssist": 0,
+  "raceBrakingAssist": 2,
+  "raceGearboxAssist": 3,
+  "racePitAssist": 1,
+  "racePitReleaseAssist": 1,
+  "race_ERSAssist": 1,
+  "race_DRSAssist": 1,
+  "raceDynamicRacingLine": 2,
+  "raceDynamicRacingLineType": 1,
+  "raceGameMode": 21,
+  "raceRuleSet": 0,
+  "raceTimeOfDay": 1024,
+  "raceSessionLength": 0,
+  "raceSpeedUnitsLeadPlayer": 1,
+  "raceTemperatureUnitsLeadPlayer": 0,
+  "raceSpeedUnitsSecondaryPlayer": 1,
+  "raceTemperatureUnitsSecondaryPlayer": 0,
+  "raceNumSafetyCarPeriods": 0,
+  "raceNumVirtualSafetyCarPeriods": 0,
+  "raceNumRedFlagPeriods": 0
+}
+
