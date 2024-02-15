@@ -19,6 +19,6 @@ export class PacketHeaderWrapper {
     }
 
     wrap() {
-        return this.wrapper.parse(buffer)
+        return this.wrapper().parse(buffer)
     }
 }

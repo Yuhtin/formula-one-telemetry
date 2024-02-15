@@ -1,8 +1,9 @@
 import { SessionWrapper } from './wrapper/sessionWrapper.js'
+import { MotionWrapper } from './wrapper/motionWrapper.js'
 
-const PACKET_WRAPPERS = {
+const WRAPPER_BY_BYTE_SIZE = {
 
-    motion: 1349,
+    1349: MotionWrapper,
     644: SessionWrapper,
     lapData: 1131,
     event: 45,
@@ -20,5 +21,5 @@ const PACKET_WRAPPERS = {
 }
 
 export default function bindWrapper(byteSize) {
-    return PACKET_WRAPPERS[byteSize]
+    return WRAPPER_BY_BYTE_SIZE[byteSize]
 }
