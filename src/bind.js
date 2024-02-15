@@ -4,6 +4,7 @@ import { LapDataWrapper } from './wrapper/lapDataWrapper.js'
 import { EventWrapper } from './wrapper/eventWrapper.js'
 import { DriversWrapper } from './wrapper/driversWrapper.js'
 import { CarConfigurationWrapper } from './wrapper/carConfigurationWrapper.js'
+import { CarTelemetryWrapper } from './wrapper/carTelemetryWrapper.js'
 
 const WRAPPER_BY_BYTE_SIZE = {
 
@@ -13,7 +14,7 @@ const WRAPPER_BY_BYTE_SIZE = {
     45: EventWrapper,
     1306: DriversWrapper,
     1107: CarConfigurationWrapper,
-    carTelemetry: 1352,
+    1352: CarTelemetryWrapper,
     carStatus: 1239,
     finalClassification: 1020,
     lobbyInfo: 1218,
