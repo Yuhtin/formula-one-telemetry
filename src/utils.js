@@ -1,3 +1,4 @@
+import { Parser } from "binary-parser";
 import { PacketHeaderWrapper } from "./wrapper/headerWrapper.js";
 
 export function toJsonString(data) {
