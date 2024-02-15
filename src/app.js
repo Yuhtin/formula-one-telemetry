@@ -2,6 +2,7 @@ import dgram from 'node:dgram'
 const server = dgram.createSocket('udp4');
 import fs from 'fs'
 import bindWrapper from './bind.js'
+import { toJsonString } from './utils.js';
 
 server.on('listening', () => {
   const address = server.address();
@@ -16,8 +17,8 @@ server.on('message', (buffer, info) => {
   console.log(data)
 
   // just to test
-  if (!fs.existsSync('data.txt')) {
-    fs.writeFile('data.txt', toJsonString(data) + "\n\n")
+  if (!fs.existsSync('./logs/data.txt')) {
+    fs.writeFile('./logs/data.txt', toJsonString(data) + "\n\n", { flag: 'a+' }, err => { });
   }
 })
 
