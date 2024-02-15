@@ -2,6 +2,9 @@ import { Parser } from "binary-parser"
 import { PacketHeaderWrapper } from './headerWrapper.js'
 
 export class FinalClassificationWrapper {
+
+    static name = 'finalClassification'
+
     constructor(buffer) {
         this.buffer = buffer
         this.wrapper = () => {

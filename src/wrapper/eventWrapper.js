@@ -3,6 +3,9 @@ import { PacketHeaderWrapper } from './headerWrapper.js'
 import { getRaceEventStringCode } from "../utils.js"
 
 export class EventWrapper {
+
+    static name = 'event'
+
     constructor(buffer) {
         this.buffer = buffer
         this.eventStringCode = getRaceEventStringCode(buffer)

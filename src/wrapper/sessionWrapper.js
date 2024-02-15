@@ -2,6 +2,9 @@ import { Parser } from "binary-parser"
 import { PacketHeaderWrapper } from './headerWrapper.js'
 
 export class SessionWrapper {
+
+    static name = 'session'
+
     constructor(buffer) {
         this.buffer = buffer
         this.wrapper = () => {

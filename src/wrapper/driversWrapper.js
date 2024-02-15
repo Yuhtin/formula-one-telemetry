@@ -2,6 +2,9 @@ import { Parser } from "binary-parser"
 import { PacketHeaderWrapper } from './headerWrapper.js'
 
 export class DriversWrapper {
+
+    static name = 'drivers'
+
     constructor(buffer) {
         this.buffer = buffer
         this.wrapper = () => {
