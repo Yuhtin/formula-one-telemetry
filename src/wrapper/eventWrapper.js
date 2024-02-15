@@ -6,7 +6,7 @@ export class EventWrapper {
     constructor(buffer) {
         this.buffer = buffer
         this.eventStringCode = getRaceEventStringCode(buffer)
-        this.wrapper = () => {        
+        this.wrapper = () => {
             const eventType = Event.EVENT_BY_CODE[this.eventStringCode]
 
             return new Parser().endianess('little')

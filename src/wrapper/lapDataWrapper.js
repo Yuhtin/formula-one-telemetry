@@ -36,7 +36,6 @@ export class LapDataWrapper {
                 .uint16le('lapPitStopTimerInMS')
                 .uint8('lapPitStopShouldServePen');
 
-
             return new Parser().endianess('little')
                 .nest('raceHeader', { type: PacketHeaderWrapper })
                 .array('lapData', {
