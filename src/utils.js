@@ -1,4 +1,4 @@
-import { PacketHeaderWrapper } from "./wrapper/headerWrapper";
+import { PacketHeaderWrapper } from "./wrapper/headerWrapper.js";
 
 export function toJsonString(data) {
     return JSON.stringify(data, (key, value) => typeof value === 'bigint' ? value.toString() : value, 2)

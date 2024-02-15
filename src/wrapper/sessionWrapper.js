@@ -5,11 +5,11 @@ export class SessionWrapper {
     constructor(buffer) {
         this.buffer = buffer
         this.wrapper = () => {
-            const MarshalZoneParser = new Parser().endianess('little')
+            const marshalZoneParser = new Parser().endianess('little')
                 .floatle('raceZoneStart')
                 .int8('raceZoneFlag');
 
-            const WeatherForecastSampleParser = new Parser().endianess('little')
+            const wheaterParser = new Parser().endianess('little')
                 .uint8('raceSessionType')
                 .uint8('raceTimeOffset')
                 .uint8('raceWeather')
@@ -20,7 +20,7 @@ export class SessionWrapper {
                 .uint8('raceRainPercentage');
 
             return new Parser().endianess('little')
-                .nest('raceHeader', { type: new PacketHeaderWrapper(buffer).wrapper })
+                .nest('raceHeader', { type: PacketHeaderWrapper })
                 .uint8('raceWeather')
                 .int8('raceTrackTemperature')
                 .int8('raceAirTemperature')
@@ -38,14 +38,14 @@ export class SessionWrapper {
                 .uint8('raceSliProNativeSupport')
                 .uint8('raceNumMarshalZones')
                 .array('raceMarshalZones', {
-                    type: MarshalZoneParser,
+                    type: marshalZoneParser,
                     length: 21
                 })
                 .uint8('raceSafetyCarStatus')
                 .uint8('raceNetworkGame')
                 .uint8('raceNumWeatherForecastSamples')
                 .array('raceWeatherForecastSamples', {
-                    type: WeatherForecastSampleParser,
+                    type: wheaterParser,
                     length: 56
                 })
                 .uint8('raceForecastAccuracy')

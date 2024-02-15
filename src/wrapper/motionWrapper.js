@@ -5,7 +5,7 @@ export class MotionWrapper {
   constructor(buffer) {
     this.buffer = buffer
     this.wrapper = () => {
-      const CarMotionDataParser = new Parser().endianess('little')
+      const motionParser = new Parser().endianess('little')
         .floatle('motionWorldPositionX')
         .floatle('motionWorldPositionY')
         .floatle('motionWorldPositionZ')
@@ -28,7 +28,7 @@ export class MotionWrapper {
       return new Parser().endianess('little')
         .nest('raceHeader', { type: PacketHeaderWrapper })
         .array('motionCarMotionData', {
-          type: CarMotionDataParser,
+          type: motionParser,
           length: 22
         });
     }

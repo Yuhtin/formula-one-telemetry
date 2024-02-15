@@ -5,7 +5,7 @@ export class LapDataWrapper {
     constructor(buffer) {
         this.buffer = buffer
         this.wrapper = () => {
-            const LapDataParser = new Parser().endianess('little')
+            const lapParser = new Parser().endianess('little')
                 .uint32le('lapLastLapTimeInMS')
                 .uint32le('lapCurrentLapTimeInMS')
                 .uint16le('lapSector1TimeInMS')
@@ -39,7 +39,7 @@ export class LapDataWrapper {
             return new Parser().endianess('little')
                 .nest('raceHeader', { type: PacketHeaderWrapper })
                 .array('lapData', {
-                    type: LapDataParser,
+                    type: lapParser,
                     length: 22
                 })
                 .uint8('lapTimeTrialPBCarIdx')
