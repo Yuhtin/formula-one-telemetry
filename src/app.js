@@ -1,8 +1,8 @@
 import dgram from 'node:dgram'
 const server = dgram.createSocket('udp4');
-import { SessionWrapper } from './wrapper/sessionWrapper.js'
-
 import fs from 'fs'
+
+import { SessionWrapper } from './wrapper/sessionWrapper.js'
 
 const PACKET_WRAPPERS = {
 
@@ -23,14 +23,10 @@ const PACKET_WRAPPERS = {
 
 };
 
-server.on('error', (err) => {
-  console.error(`server error:\n${err.stack}`);
-  server.close();
+server.on('listening', () => {
+  const address = server.address();
+  console.log(`server listening ${address.address}:${address.port}`);
 });
-
-function toJsonString(data) {
-  return JSON.stringify(data, (key, value) => typeof value === 'bigint' ? value.toString() : value, 2)
-}
 
 server.on('message', (msg, info) => {
   let wrapper = PACKET_WRAPPERS[info.size]
@@ -42,11 +38,6 @@ server.on('message', (msg, info) => {
   if (!fs.existsSync('data.txt')) {
     fs.writeFile('data.txt', toJsonString(data) + "\n\n", { flag: 'a+' }, err => { });
   }
-});
-
-server.on('listening', () => {
-  const address = server.address();
-  console.log(`server listening ${address.address}:${address.port}`);
 });
 
 server.bind(20777);
